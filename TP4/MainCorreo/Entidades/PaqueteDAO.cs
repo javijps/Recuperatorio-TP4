@@ -24,9 +24,7 @@ namespace Entidades
         /// </summary>
         static PaqueteDAO()
         {
-//            PaqueteDAO.conexion = new SqlConnection(@"Server=localhost\SQLEXPRESS;Database=master;Trusted_Connection=True;");
-
-            PaqueteDAO.conexion = new SqlConnection(@"Server=localhost\lnkl;Database=xxx;Trusted_Connection=True;");
+            PaqueteDAO.conexion = new SqlConnection(@"Server=localhost\SQLEXPRESS;Database=master;Trusted_Connection=True;");
         }
 
         /// <summary>
