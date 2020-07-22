@@ -27,8 +27,8 @@ namespace Test
         public void TrackingIdRepetido()
         {
             Correo c = new Correo();
-            Paquete p1 = new Paquete("Pareta 515", "1234");
-            Paquete p2 = new Paquete("Kurt 234", "1234");
+            Paquete p1 = new Paquete("Pareta 515", "11-11-1234");
+            Paquete p2 = new Paquete("Kurt 234", "11-11-1234");
 
             c += p1;
             c += p2;
@@ -41,8 +41,8 @@ namespace Test
         public void TrackingIdDiferente()
         {
             Correo c = new Correo();
-            Paquete p1 = new Paquete("Pareta 515", "1234");
-            Paquete p2 = new Paquete("Pareta 515", "4321");
+            Paquete p1 = new Paquete("Pareta 515", "11-11-1234");
+            Paquete p2 = new Paquete("Pareta 515", "11-11-4321");
             
             c += p1;
             c += p2;
